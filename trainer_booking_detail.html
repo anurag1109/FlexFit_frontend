@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexFit |</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/loader.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./scripts/loader.js"></script>
+    <link rel="stylesheet" href="./styles/trainer_booking_detail.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="logo_name">
+            <a href="index.html">
+                <img src="./images/logo.png" alt="">
+            </a>
+        </div>
+        <div class="rightnav">
+            <div class="nav-contents">
+                <a href="">For Trainers</a>
+                <a href="">How it works</a>
+                <a id="login" href="login.html">Login</a>
+                <a id="signup" href="signup.html">Sign up</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+        </div>
+    </nav>
+    <br> <br>
+    <div id="swiper-container">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img id="img1" src="./images/img1.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img id="img2" src="./images/img2.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img id="img3" src="./images/img3.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img id="img4" src="./images/img4.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div> <br>
+    <div class="container">
+        <div class="about">
+            <div class="brief">
+                <!-- <div id="dp">
+                        <img src="" alt="">
+                    </div> -->
+                <div id="details">
+                    <h2 id="name"></h2>
+                    <p id="place"></p>
+                </div>
+            </div>
+            <div id="trainer_nav">
+                <a href="#aboutme"> About Me</a>
+                <!-- <a href="#reviews">Reviews</a> -->
+                <!-- <a href="#works">How it works</a> -->
+            </div>
+            <!-- Loader -->
+            <div class="loader" id="loader">
+            </div>
+            <!-- Loader End -->
+            <div id="aboutme">
+                <p>My passion is to train people and also, I love music, cooking, and my beautiful family! I have been
+                    training people my
+                    whole life but decided to do it professionally in 2010 and I love it more every day. I am very much
+                    a people person but ironically my specialty is to train people and make them more confident in
+                    public.</p>
+
+                <p id="good_with">
+                <h4>Good With</h4>
+                <p id="expertise"></p>
+                </p>
+            </div> <br>
+            <!-- <div id="reviews"></div> -->
+            <div id="works">
+                <h3>How it Works</h3>
+                <h5>Book</h5>
+                <p>Quickly find a top-rated trainer near you. Then book the right one for your special training.</p>
+                <h5>Training</h5>
+                <p>Relax and enjoy the moment as an experienced trainer captures it. They’ll take care of all the
+                    details.</p>
+                <h5>Enjoy!</h5>
+                <p>Within few business days of your training, you'll be able to view changes. Enjoy it all
+                    again and again.</p>
+            </div>
+        </div>
+        <div class="book">
+            <div>
+                <b>Start booking</b> <br>
+                <form>
+                    <label for="date">Start Time</label> <br>
+                    <input type="datetime-local" id="start">
+                    <label for="date">End Time</label> <br>
+                    <input type="datetime-local" id="end">
+                    <!-- <button id="time_btn" onclick="getTime()">Get Time </button> <br> -->
+                    <label for="duration">Duration</label><br>
+                    <select id="duration">
+                        <option value="anytime">Anytime</option>
+                        <option value="1">1 Hours</option>
+                        <option value="1.5">1.5 Hours</option>
+                        <option value="2">2 Hours</option>
+                        <option value="2.5">2.5 Hours</option>
+                    </select> <br>
+                    <p class="price"><b>Price -</b> <span>₹</span> <span id="price"></span></p>
+                    <input type="submit" value="Book">
+                </form>
+            </div>
+            <div id="results">
+                <h5> <span><ion-icon name="happy-outline"></ion-icon></span> Satisfaction Gurantee</h5>
+                <h5><span><ion-icon name="close-circle-outline"></ion-icon></span> Cancel within 24 hours</h5>
+                <h5><span><ion-icon name="lock-open-outline"></ion-icon></span> Price-lock gurantee</h5>
+            </div>
+        </div>
+    </div> <br>
+    <footer>
+        <div>
+            <ul>
+                <li>Blog</li>
+                <li>Support</li>
+                <li>Terms</li>
+                <li>Privacy</li>
+            </ul>
+        </div>
+        <div>
+            <ion-icon name="logo-facebook"></ion-icon>
+            <ion-icon name="logo-instagram"></ion-icon>
+            <ion-icon name="logo-twitter"></ion-icon>
+            <span> | © 2023 Book My Shoot</span>
+        </div>
+    </footer>
+</body>
+
+</html>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="./scripts/trainer_booking_detail.js"></script>
