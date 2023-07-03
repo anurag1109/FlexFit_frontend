@@ -1,5 +1,5 @@
 const form = document.querySelector("form");
-const URL = "https://rich-tan-cougar-tux.cyclic.app";
+const URL = "https://flexfit-git-main-anurag1109.vercel.app";
 
 const signup = document.getElementById("submit");
 const client_checked = document.getElementById("radio1");
@@ -48,9 +48,10 @@ const google = document.getElementById("google");
 const github = document.getElementById("github");
 
 google.addEventListener("click", () => {
-  window.location.href = "https://rich-tan-cougar-tux.cyclic.app/auth/google";
+  window.location.href =
+    "https://flexfit-git-main-anurag1109.vercel.app/auth/google";
 });
 
 // github.addEventListener("click", () => {
-//   window.location.href = "https://rich-tan-cougar-tux.cyclic.app/auth/github";
+//   window.location.href = "https://flexfit-git-main-anurag1109.vercel.app/auth/github";
 // });

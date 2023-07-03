@@ -1,7 +1,7 @@
 /*
 See on github: https://github.com/muhammederdem/credit-card-form
 */
-const url = "https://rich-tan-cougar-tux.cyclic.app";
+const url = "https://flexfit-git-main-anurag1109.vercel.app";
 new Vue({
   el: "#app",
   data() {

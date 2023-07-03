@@ -1,7 +1,7 @@
 const dropZone = document.getElementById("dropZone");
 const uploadForm = document.getElementById("uploadForm");
 const detailsForm = document.getElementById("details_Form");
-const url = "https://rich-tan-cougar-tux.cyclic.app";
+const url = "https://flexfit-git-main-anurag1109.vercel.app";
 // prevent default drag behaviors
 if (dropZone) {
   ["dragenter", "dragover", "dragleave", "drop"].forEach((eventName) => {

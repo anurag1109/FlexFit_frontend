@@ -1,4 +1,4 @@
-const URL = "https://rich-tan-cougar-tux.cyclic.app";
+const URL = "https://flexfit-git-main-anurag1109.vercel.app";
 
 // `${localStorage.getItem("token")}`;
 
@@ -831,5 +831,5 @@ async function blockUser(user, msg) {
 
 let readDoc = document.querySelector("#btn-read-doc");
 readDoc.addEventListener("click", (e) => {
-  window.location.href = "https://rich-tan-cougar-tux.cyclic.app/api-docs/";
+  window.location.href = "https://flexfit-git-main-anurag1109.vercel.app/api-docs/";
 });

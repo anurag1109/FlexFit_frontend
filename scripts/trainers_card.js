@@ -1,6 +1,6 @@
 let container = document.getElementById("search-results");
 // Fetch the images data from the server
-const url = "https://rich-tan-cougar-tux.cyclic.app";
+const url = "https://flexfit-git-main-anurag1109.vercel.app";
 
 async function fetchData() {
   try {

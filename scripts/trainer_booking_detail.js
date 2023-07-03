@@ -14,7 +14,7 @@ const url2 = new URL(currentUrl);
 // Get the search parameters from the URL
 const searchParams = url2.searchParams;
 
-const url = "https://rich-tan-cougar-tux.cyclic.app";
+const url = "https://flexfit-git-main-anurag1109.vercel.app";
 const form = document.querySelector("form");
 const trainer = searchParams.get("id");
 const trainerName = document.getElementById("name");

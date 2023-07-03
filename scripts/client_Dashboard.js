@@ -9,7 +9,7 @@ boxes.forEach(box => {
     })
 });
 
-const URL = `https://rich-tan-cougar-tux.cyclic.app`;
+const URL = `https://flexfit-git-main-anurag1109.vercel.app`;
 const token = localStorage.getItem("token");
 const id = localStorage.getItem("id");
 const tbody = document.querySelector("tbody");
